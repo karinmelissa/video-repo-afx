@@ -1,25 +1,27 @@
-#  video-album-afex
+#  Video-album-afex
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto prueba consiste en un álbum online de videos de youtube, donde podrás pegar links de videos y visualizar todos los que hayas guardado, pudiendo ver las miniaturas e información sobre éstos, además de reproducirlos y eliminarlos. 
 
-## Recommended IDE Setup
+## Tecnologias 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<ul>
+    <li>Vue3</li>
+    <li>Typescript</li>
+    <li>Boostrap</li>
+    <li>Node.js</li>
+    <li>AWS : Lambda, API http, Dynamo.db</li>
+</ul>
 
-## Type Support for `.vue` Imports in TS
+## Preview
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+![img](public/images/video-repo1.png)
+![img](public/images/video-repo2.png)
+![img](public/images/video-repo3.png)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Arquitectura cloud
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+![img](public/images/video-repo4.png)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
@@ -33,8 +35,3 @@ npm install
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
